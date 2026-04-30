@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WebsiteConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <OpenUrlOnJoin>true</OpenUrlOnJoin>
-  <JoinUrl>https://discord.gg/SFwzAnRjvv</JoinUrl>
-  <JoinDesc>Thank you for playing the Nostalgia Network! (Available commands: /discord, /msg, /reply, /cv)</JoinDesc>
+  <JoinUrl>https://nostalgia-network.github.io</JoinUrl>
+  <JoinDesc>Thank you for playing the Nostalgia Network!</JoinDesc>
   <WebsiteCommands>
     <WebsiteCommand>
-      <Url>https://discord.gg/SFwzAnRjvv</Url>
-      <Desc>Join our Discord server to read the rules and get updates about our servers.</Desc>
+      <Url>https://nostalgia-network.github.io</Url>
+      <Desc>Please visit our website to read the rules and see what commands are available.</Desc>
       <CommandName>discord</CommandName>
       <Help>default</Help>
     </WebsiteCommand>
