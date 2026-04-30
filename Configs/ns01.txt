@@ -1,7 +1,7 @@
 Browser
 {
-	Icon https://i.imgur.com/ynpxLgD.png
-	Thumbnail https://i.imgur.com/yWL1Zu1.png
+	Icon https://i.imgur.com/sw2ZDaU.png
+	Thumbnail https://i.imgur.com/5CsiH7d.png
 	Desc_Hint <color=#ff0090>PvP | 2x | Home/TPA</color>
 	Desc_Full Welcome to the Nostalgia network!\n\nOur servers are all privately owned, facilitated, and maintained and are backed up nightly at midnight (PST).\n\nPlease join our Discord server to read the rules, get updates about our servers, and join the growing community!
 	Desc_Server_List <color=#ff0090>PvP | 2x | Home/TPA
