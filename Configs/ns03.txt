@@ -1,0 +1,107 @@
+Browser
+{
+	Icon https://i.imgur.com/ynpxLgD.png
+	Thumbnail https://i.imgur.com/yWL1Zu1.png
+    Desc_Hint <color=#39ff14>PvE | Hardcore | Home/TPA</color>
+	Desc_Full Welcome to the Nostalgia network!\n\nOur servers are all privately owned, facilitated, and maintained and are backed up nightly at midnight (PST).\n\nPlease join our Discord server to read the rules, get updates about our servers, and join the growing community!
+	Desc_Server_List <color=#39ff14>PvE | Hardcore | Home/TPA
+	Links
+	[
+		{
+			Message <color=#ff0090>nostalgia-network.github.io</color>
+			URL https://nostalgia-network.github.io
+		}
+	]
+}
+
+Server {
+    Max_Ping_Milliseconds 1000
+    Enable_Scheduled_Shutdown True
+    Scheduled_Shutdown_Time 8:00 am
+    Scheduled_Shutdown_Warnings
+	[
+		00:05:00
+		00:01:00
+	]
+    Enable_Update_Shutdown True
+	Update_Shutdown_Warnings
+	[
+		00:03:00
+		00:01:00
+	]
+}
+
+Items
+{
+	Quality_Full_Chance 1.0
+	Gun_Bullets_Full_Chance 1.0
+	Magazine_Bullets_Full_Chance 1.0
+	Crate_Bullets_Full_Chance 1.0
+	Has_Durability true
+	Food_Spawns_At_Full_Quality true
+	Water_Spawns_At_Full_Quality true
+	Clothing_Spawns_At_Full_Quality true
+	Default_Spawns_At_Full_Quality true
+	Clothing_Has_Durability false
+}
+
+Vehicles
+{
+    Max_Instances_Medium 32
+	Max_Instances_Large 64
+	Max_Instances_Insane 128
+}
+
+Zombies
+{
+	Boss_Electric_Chance 0.01
+	Boss_Wind_Chance 0.01
+	Boss_Fire_Chance 0.01
+	Spirit_Chance 0.05
+	DL_Red_Volatile_Chance 0.05
+	DL_Blue_Volatile_Chance 0.05
+	Slow_Movement True
+	Can_Stun True
+	Only_Critical_Stuns True
+	Can_Target_Barricades False
+	Can_Target_Structures False
+}
+
+Barricades
+{
+	Decay_Time 0
+	Armor_Lowtier_Multiplier 0
+	Armor_Hightier_Multiplier 0
+}
+
+Structures
+{
+	Decay_Time 0
+	Armor_Lowtier_Multiplier 0
+	Armor_Hightier_Multiplier 0
+}
+
+Players
+{
+    Spawn_With_Stamina_Skills True
+}
+
+Events
+{
+    Airdrop_Frequency_Min 1
+	Airdrop_Frequency_Max 3
+}
+
+Gameplay
+{
+    Hitmarkers True
+	Crosshair True
+    Ballistics True
+    Chart True
+    Satellite True
+	Compass True
+    Friendly_Fire True
+    Bypass_Buildable_Mobility True
+	Bypass_No_Building_Zones True
+    Timer_Leave_Group 0
+}

@@ -1,0 +1,97 @@
+Browser
+{
+	Icon https://i.imgur.com/ynpxLgD.png
+	Thumbnail https://i.imgur.com/yWL1Zu1.png
+	Desc_Hint <color=#ff0090>PvP | 2x | Home/TPA</color>
+	Desc_Full Welcome to the Nostalgia network!\n\nOur servers are all privately owned, facilitated, and maintained and are backed up nightly at midnight (PST).\n\nPlease join our Discord server to read the rules, get updates about our servers, and join the growing community!
+	Desc_Server_List <color=#ff0090>PvP | 2x | Home/TPA
+	Links
+	[
+		{
+			Message <color=#ff0090>nostalgia-network.github.io</color>
+			URL https://nostalgia-network.github.io
+		}
+	]
+}
+
+Server {
+    Max_Ping_Milliseconds 1000
+    Enable_Scheduled_Shutdown True
+    Scheduled_Shutdown_Time 8:00 am
+    Scheduled_Shutdown_Warnings
+	[
+		00:05:00
+		00:01:00
+	]
+    Enable_Update_Shutdown True
+	Update_Shutdown_Warnings
+	[
+		00:03:00
+		00:01:00
+	]
+}
+
+Items
+{
+	Spawn_Chance 0.65
+	Quality_Full_Chance 1.0
+	Gun_Bullets_Full_Chance 1.0
+	Magazine_Bullets_Full_Chance 1.0
+	Crate_Bullets_Full_Chance 1.0
+}
+
+Vehicles
+{
+    Max_Instances_Medium 32
+	Max_Instances_Large 64
+	Max_Instances_Insane 128
+}
+
+Zombies
+{
+	Beacon_Experience_Multiplier 2
+	Full_Moon_Experience_Multiplier 4
+	Min_Drops 2
+	Max_Drops 2
+	Min_Mega_Drops 10
+	Max_Mega_Drops 10
+	Min_Boss_Drops 16
+	Max_Boss_Drops 20
+	Slow_Movement True
+	Only_Critical_Stuns True
+}
+
+Barricades
+{
+	Decay_Time 0
+}
+
+Structures
+{
+	Decay_Time 0
+}
+
+Players
+{
+    Spawn_With_Stamina_Skills True
+}
+
+Events
+{
+    Airdrop_Frequency_Min 1
+	Airdrop_Frequency_Max 3
+}
+
+Gameplay
+{
+    Hitmarkers True
+	Crosshair True
+    Ballistics True
+    Chart True
+    Satellite True
+	Compass True
+    Friendly_Fire True
+    Bypass_Buildable_Mobility True
+	Bypass_No_Building_Zones True
+    Timer_Leave_Group 0
+}
