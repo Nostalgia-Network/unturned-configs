@@ -1,14 +1,14 @@
 {
     "Browser": {
-        "Icon": "https://i.imgur.com/i19PA6V.png",
-        "Thumbnail": "https://i.imgur.com/i19PA6V.png",
-        "Desc_Hint": "<color=#ff0090>Modded | 2x | Home/TPA | No Decay</color>",
+        "Icon": "https://imgur.com/a/9twT6UF",
+        "Thumbnail": "https://imgur.com/a/9twT6UF",
+        "Desc_Hint": "<color=#ff0090>PvP | 2x | Home/TPA</color>",
         "Desc_Full": "Welcome to the Nostalgia network!\n\nOur servers are all privately owned, facilitated, and maintained and are backed up nightly at midnight (PST).\n\nPlease join our Discord server to read the rules, get updates about our servers, and join the growing community!",
-        "Desc_Server_List": "<color=#ff0090>Modded | 2x | Home/TPA | No Decay",
+        "Desc_Server_List": "<color=#ff0090>PvP | 2x | Home/TPA",
         "Links": [
             {
                 "Message": "<color=#ff0090>discord.gg/SFwzAnRjvv</color>",
-                "Url": "https://discord.gg/SFwzAnRjvv"
+                "Url": "https://nostalgia-network.github.io"
             }
         ]
     },

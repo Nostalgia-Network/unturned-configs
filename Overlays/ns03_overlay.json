@@ -1,44 +1,55 @@
 {
     "Browser": {
-        "Icon": "https://i.imgur.com/SNrVuHr.png",
-        "Thumbnail": "https://i.imgur.com/SNrVuHr.png",
-        "Desc_Hint": "<color=#39ff14>2x | Home/TPA | No Decay</color>",
+        "Icon": "https://imgur.com/a/9twT6UF",
+        "Thumbnail": "https://imgur.com/a/9twT6UF",
+        "Desc_Hint": "<color=#39ff14>PvE | Hardcore | Home/TPA</color>",
         "Desc_Full": "Welcome to the Nostalgia network!\n\nOur servers are all privately owned, facilitated, and maintained and are backed up nightly at midnight (PST).\n\nPlease join our Discord server to read the rules, get updates about our servers, and join the growing community!",
-        "Desc_Server_List": "<color=#39ff14>2x | Home/TPA | No Decay",
+        "Desc_Server_List": "<color=#39ff14>PvE | Hardcore | Home/TPA",
         "Links": [
             {
                 "Message": "<color=#39ff14>discord.gg/SFwzAnRjvv</color>",
-                "Url": "https://discord.gg/SFwzAnRjvv"
+                "Url": "https://nostalgia-network.github.io"
             }
         ]
     },
-    "Easy": {
+    "Hard": {
         "Items": {
-            "Spawn_Chance": 0.65,
             "Quality_Full_Chance": 1.0,
             "Gun_Bullets_Full_Chance": 1.0,
             "Magazine_Bullets_Full_Chance": 1.0,
             "Crate_Bullets_Full_Chance": 1.0,
-            "Has_Durability": false,
+            "Has_Durability": true,
             "Food_Spawns_At_Full_Quality": true,
             "Water_Spawns_At_Full_Quality": true,
             "Clothing_Spawns_At_Full_Quality": true,
-            "Weapons_Spawn_At_Full_Quality": true,
+            "Weapons_Spawn_At_Full_Quality": false,
             "Default_Spawns_At_Full_Quality": true,
             "Clothing_Has_Durability": false,
-            "Weapons_Have_Durability": false
+            "Weapons_Have_Durability": true
         },
         "Zombies": {
-            "Min_Drops": 2,
-            "Max_Drops": 2,
-            "Min_Mega_Drops": 10,
-            "Max_Mega_Drops": 10,
-            "Min_Boss_Drops": 16,
-            "Max_Boss_Drops": 20,
-            "Slow_Movement": true,
+            "Crawler_Chance": 0.15,
+            "Sprinter_Chance": 0.15,
+            "Flanker_Chance": 0.025,
+            "Burner_Chance": 0.025,
+            "Acid_Chance": 0.025,
+            "Boss_Electric_Chance": 0.005,
+            "Boss_Wind_Chance": 0.005,
+            "Boss_Fire_Chance": 0.005,
+            "Spirit_Chance": 0.01,
+            "DL_Red_Volatile_Chance": 0.01,
+            "DL_Blue_Volatile_Chance": 0.01,
+            "Boss_Elver_Stomper_Chance": 0.005,
+            "Boss_Kuwait_Chance": 0.005,
+            "Slow_Movement": false,
             "Can_Stun": true,
             "Only_Critical_Stuns": true,
-            "Beacon_Rewards_Multiplier": 2.0
-        }
+			"Can_Target_Structures": false
+		},
+		"Structures": {
+			"Decay_Time": 0,
+			"Armor_Lowtier_Multiplier": 0.0,
+			"Armor_Hightier_Multiplier": 0.0
+		}
     }
 }
