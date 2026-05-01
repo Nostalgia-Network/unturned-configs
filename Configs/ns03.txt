@@ -54,9 +54,9 @@ Vehicles
 
 Zombies
 {
-	Boss_Electric_Chance 0.01
-	Boss_Wind_Chance 0.01
-	Boss_Fire_Chance 0.01
+	Boss_Electric_Chance 0.005
+	Boss_Wind_Chance 0.005
+	Boss_Fire_Chance 0.005
 	Spirit_Chance 0.05
 	DL_Red_Volatile_Chance 0.05
 	DL_Blue_Volatile_Chance 0.05
@@ -81,8 +81,8 @@ Structures
 
 Events
 {
-    Airdrop_Frequency_Min 1
-	Airdrop_Frequency_Max 3
+    Airdrop_Frequency_Min 0.5
+	Airdrop_Frequency_Max 1.5
 }
 
 Gameplay
