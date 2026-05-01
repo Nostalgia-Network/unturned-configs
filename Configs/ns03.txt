@@ -70,8 +70,6 @@ Zombies
 Barricades
 {
 	Decay_Time 0
-	Armor_Lowtier_Multiplier 0
-	Armor_Hightier_Multiplier 0
 }
 
 Structures
@@ -79,11 +77,6 @@ Structures
 	Decay_Time 0
 	Armor_Lowtier_Multiplier 0
 	Armor_Hightier_Multiplier 0
-}
-
-Players
-{
-    Spawn_With_Stamina_Skills True
 }
 
 Events
