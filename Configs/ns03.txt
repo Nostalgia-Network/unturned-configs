@@ -2,9 +2,9 @@ Browser
 {
 	Icon https://i.imgur.com/sw2ZDaU.png
 	Thumbnail https://i.imgur.com/5CsiH7d.png
-    Desc_Hint <color=#ffff00>PvE | Hardcore | Home/TPA</color>
+    Desc_Hint <color=#ffff00>PvE | 2x | Home/TPA</color>
 	Desc_Full Welcome to the Nostalgia network!\n\nPlease visit our website to read the rules, get updates about our servers, and join the growing Discord community!
-	Desc_Server_List <color=#ffff00>PvE | Hardcore | Home/TPA
+	Desc_Server_List <color=#ffff00>PvE | 2x | Home/TPA
 	Links
 	[
 		{
@@ -33,6 +33,7 @@ Server {
 
 Items
 {
+	Spawn_Chance 0.65
 	Quality_Full_Chance 1.0
 	Gun_Bullets_Full_Chance 1.0
 	Magazine_Bullets_Full_Chance 1.0
@@ -47,6 +48,9 @@ Items
 
 Vehicles
 {
+	Min_Battery_Charge 1.0
+	Max_Battery_Charge 1.0
+	Has_Tire_Chance 1.0
     Max_Instances_Medium 32
 	Max_Instances_Large 64
 	Max_Instances_Insane 128
@@ -60,6 +64,14 @@ Zombies
 	Spirit_Chance 0.05
 	DL_Red_Volatile_Chance 0.05
 	DL_Blue_Volatile_Chance 0.05
+	Beacon_Experience_Multiplier 2
+	Full_Moon_Experience_Multiplier 4
+	Min_Drops 2
+	Max_Drops 2
+	Min_Mega_Drops 10
+	Max_Mega_Drops 10
+	Min_Boss_Drops 16
+	Max_Boss_Drops 20
 	Slow_Movement True
 	Can_Stun True
 	Only_Critical_Stuns True
