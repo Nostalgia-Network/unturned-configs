@@ -105,7 +105,6 @@ Gameplay
     Chart True
     Satellite True
 	Compass True
-    Friendly_Fire True
     Bypass_Buildable_Mobility True
 	Bypass_No_Building_Zones True
     Timer_Leave_Group 0
