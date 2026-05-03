@@ -1,0 +1,8 @@
+<BlacklistedItemsConfiguration>
+  <MessageColor>yellow</MessageColor>
+  <EnableBypassPermission>true</EnableBypassPermission>
+  <BypassPermission>blacklist.bypass</BypassPermission>
+  <BlacklistItems>
+    <Item ItemId="1353" Name="Stealy Wheely Automobiley" CanCraft="false" CanSpawn="false" CanTake="false" CanStore="false" />
+  </BlacklistItems>
+</BlacklistedItemsConfiguration>
