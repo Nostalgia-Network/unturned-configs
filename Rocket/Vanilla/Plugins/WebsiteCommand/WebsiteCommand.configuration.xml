@@ -5,7 +5,7 @@
   <JoinDesc>Thank you for playing the Nostalgia Network!</JoinDesc>
   <WebsiteCommands>
     <WebsiteCommand>
-      <Url>https://nostalgia-network.github.io</Url>
+      <Url>https://discord.gg/SFwzAnRjvv</Url>
       <Desc>Please visit our website to read the rules and see what commands are available.</Desc>
       <CommandName>discord</CommandName>
       <Help>default</Help>
