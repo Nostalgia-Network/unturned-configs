@@ -14,7 +14,8 @@ Browser
 	]
 }
 
-Server {
+Server
+{
     Max_Ping_Milliseconds 1000
     Enable_Scheduled_Shutdown True
     Scheduled_Shutdown_Time 8:00 am
