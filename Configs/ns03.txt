@@ -108,3 +108,9 @@ Gameplay
 	Bypass_No_Building_Zones True
     Timer_Leave_Group 0
 }
+
+Players
+{
+	Lose_Clothes_PvE False
+	Lose_Weapons_PvE False
+}
