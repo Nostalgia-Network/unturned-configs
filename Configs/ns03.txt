@@ -52,9 +52,7 @@ Vehicles
 	Min_Battery_Charge 1.0
 	Max_Battery_Charge 1.0
 	Has_Tire_Chance 1.0
-    Max_Instances_Medium 32
-	Max_Instances_Large 64
-	Max_Instances_Insane 128
+	Max_Instances_Insane 256
 }
 
 Zombies
